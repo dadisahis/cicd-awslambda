@@ -20,7 +20,7 @@ package:
 
 functions:
   hello:
-    handler: handler.
+    handler: handler.hello
     events:
       - http:
           path: hello
