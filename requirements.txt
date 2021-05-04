@@ -1,0 +1,3 @@
+elasticsearch
+elasticsearch-dsl
+aws4auth
