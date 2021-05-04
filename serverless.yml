@@ -25,6 +25,12 @@ functions:
       - http:
           path: hello
           method: get
+          request:
+            template:
+              application/json: >
+                {
+                  "type" : "$input.params('type')",
+                }
 
 
 
