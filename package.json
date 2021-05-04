@@ -3,8 +3,7 @@
   "description": "",
   "version": "0.1.0",
   "dependencies": {
-	  "jszip": "^3.6.0"
-  },
+	},
   "scripts":{
 	  "deploy":"serverless deploy"
   },
