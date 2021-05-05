@@ -25,11 +25,11 @@ functions:
       - http:
           path: hello
           method: get
+          integration: lambda
+
           request:
             template:
-              application/json: {
-                  "type" : "$input.params().querystring.get('type')",
-                }
+              application/json: '{"type" : "$input.params().querystring.get('type')"}'
 
 
 
