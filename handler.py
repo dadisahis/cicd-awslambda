@@ -3,6 +3,7 @@ import json
 
 def hello(event, context):
     input=event['queryStringParameters']['type']
+    #event['q']
     if input==1:
         output=1
     else:

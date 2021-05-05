@@ -29,7 +29,7 @@ functions:
             template:
               application/json: >
                 {
-                  "type" : "$input.params('type')",
+                  "type" : "$input.params().querystring.get('type')",
                 }
 
 
