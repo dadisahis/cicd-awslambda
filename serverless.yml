@@ -28,7 +28,7 @@ functions:
           integration: lambda
           request:
             template:
-              application/json: '{ "type" : "$input.params(''type'')" }'
+              application/json: '{ "type" : "$input.params().querystring.get(''type'')" }'
 
 
 plugins:
