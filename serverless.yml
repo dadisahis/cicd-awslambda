@@ -27,8 +27,7 @@ functions:
           method: get
           request:
             template:
-              application/json: >
-                {
+              application/json: {
                   "type" : "$input.params().querystring.get('type')",
                 }
 
